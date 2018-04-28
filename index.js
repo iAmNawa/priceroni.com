@@ -24,6 +24,9 @@ app.get(
   })
 );
 
+app.get(
+  '/auth/google/callback', passport.authenticate('google'));
+
 app.get('/', (req,res) => {
   res.send('running')
 })
