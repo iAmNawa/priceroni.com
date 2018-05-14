@@ -7,9 +7,8 @@
       "target": "http://localhost:5000"
     },
     "/api/*": {
-      "target": "http://localhost:5000"  
+      "target": "http://localhost:5000"
     }
-
   },
   "dependencies": {
     "axios": "^0.18.0",
